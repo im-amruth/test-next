@@ -1,0 +1,45 @@
+.productstyle {
+  height:70 px;
+  width: 50 px;
+  /* border:2px solid ; */
+  /* margin:40px; */
+    display: flex;
+  /* flex-wrap: wrap; */
+ float:right;
+ /* justify-content: center; */
+ margin-bottom:120px;
+ margin-left:-50px;
+ margin-right:100px;
+}
+
+.pdImage {
+    margin:100 px;
+  height: 150px;
+  width: 150px;
+}
+.offerproductInfo {
+  line-height: 10px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.title
+{
+    font-weight: bold;
+    font-size: 4mm;
+    line-height: 20px;
+    width:200px;
+     margin-bottom: 20px;
+     text-wrap: wrap;
+   text-align: center;
+}
+.home{
+   
+    width:100%;
+    margin-top: 30px;
+  
+}
+.shopButton{
+   background-color: orange;
+   height: 30px;
+
+}

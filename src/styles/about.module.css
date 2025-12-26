@@ -1,0 +1,13 @@
+.about-page img {
+  object-fit: contain;
+ 
+}
+
+.about-page h3 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.about-page p {
+  line-height: 1.7;
+}

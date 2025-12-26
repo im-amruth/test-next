@@ -1,0 +1,50 @@
+.main {
+  /* height: 50%; */
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.section {
+  height: 300px;
+  width: 250px;
+background-color: rgb(166, 234, 179);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 15px solid rgb(235, 231, 231);
+  word-wrap: normal;
+  /* float: left;
+   */
+}
+.bestproducts {
+  height: 350px;
+  width: 217px;
+  /* border-bottom: 15px solid rgb(235, 231, 231); */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin-top:60px;
+margin-right:20px;
+  
+}
+.image {
+  height: 140px;
+  width: 150px;
+  margin-bottom:10px;
+ 
+}
+.bestproductinfo {
+  font-size: medium;
+  line-height: 8px;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom:150px;
+}
+.sectionText{
+   font-size: 9mm;
+   word-spacing: 5px;
+               
+   text-align: center;
+  margin-top: 40px
+}

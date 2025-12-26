@@ -1,0 +1,8 @@
+.contact-page a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.contact-page a:hover {
+  text-decoration: underline;
+}
