@@ -1,6 +1,4 @@
-export const config = {
-  runtime: "nodejs",
-};
+
 
 import Productcard from "@/components/productcard";
 import { Productservices } from "@/services/product-service";
@@ -35,12 +33,12 @@ export default function Products({ products }: Props) {
 }
 
 export async function getServerSideProps() {
-   
+
 
   try {
-console.log("🚀 SSR RUNNING - PRODUCT LIST");
+    console.log("🚀 SSR RUNNING - PRODUCT LIST");
     const products = await Productservices.getProducts();
-console.log("✅ PRODUCTS LENGTH:", products.length);
+    console.log("✅ PRODUCTS LENGTH:", products.length);
     return {
       props: {
         products,
