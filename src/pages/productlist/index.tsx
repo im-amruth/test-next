@@ -35,9 +35,12 @@ export default function Products({ products }: Props) {
 }
 
 export async function getServerSideProps() {
-  try {
-    const products = await Productservices.getProducts();
+   
 
+  try {
+console.log("🚀 SSR RUNNING - PRODUCT LIST");
+    const products = await Productservices.getProducts();
+console.log("✅ PRODUCTS LENGTH:", products.length);
     return {
       props: {
         products,
