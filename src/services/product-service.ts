@@ -3,7 +3,12 @@ import { serviceBase } from "./servise-base";
 export class Productservices extends serviceBase {
   static async getProducts() {
     const response = await fetch(this.getURL("/products"), {
-      cache: "no-store"
+      method: "GET",
+      cache: "no-store", // CRITICAL for SSR on Vercel
+      headers: {
+        "Accept": "application/json",
+        "User-Agent": "Next.js Server", // VERY IMPORTANT
+      },
     });
 
     if (!response.ok) {
